@@ -33,13 +33,11 @@ const nextConfig = {
   },
   distDir: '.next',
   typescript: {
-    // Dangerously allow production builds to successfully complete even if
-    // your project has type errors.
+    // Dangerously allow production builds to complete despite type errors
     ignoreBuildErrors: true,
   },
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
+    // Allow production builds to complete despite ESLint errors
     ignoreDuringBuilds: true,
   },
 };
