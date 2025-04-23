@@ -6,7 +6,7 @@
     "dev": "next dev -H 0.0.0.0 --turbopack",
     "backend": "cd backend && npm start",
     "frontend": "cd frontend && npm run dev",
-    "build": "next build || exit 0",
+    "build": "next build ",
     "start": "next start",
     "lint": "bunx biome lint --write && bunx tsc --noEmit",
     "format": "bunx biome format --write"
